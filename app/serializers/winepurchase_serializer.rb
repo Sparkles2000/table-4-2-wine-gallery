@@ -1,5 +1,5 @@
 class WinepurchaseSerializer < ActiveModel::Serializer
-  attributes :purchasepackage, :ordered
+  attributes :purchasepackage, :purchased
 
   belongs_to :customergroup
   belongs_to :brandofwine
