@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artstyle: MyString
+  price: MyString
+  sessiontype: MyString
+  piecespergroup: 1
+  customergroup: one
+
+two:
+  artstyle: MyString
+  price: MyString
+  sessiontype: MyString
+  piecespergroup: 1
+  customergroup: two
