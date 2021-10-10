@@ -1,8 +1,5 @@
-class CustomergroupSerializer < ActiveModel::Serializer
-  attributes :party, :partyquantity, :customerstatus
+class ArtpieceSerializer < ActiveModel::Serializer
+  attributes :artists, :piece, :artstyle, :img_src
 
-  has_many :artsessions
-  has_many :winepurchases
-  has_many :artpieces
-  has_many :brandofwines
+  belongs_to :artsession
 end
