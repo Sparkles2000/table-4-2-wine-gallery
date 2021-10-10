@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purchasepackage: MyString
+  purchased: MyString
+  brandofwine: one
+  customergroup: one
+
+two:
+  purchasepackage: MyString
+  purchased: MyString
+  brandofwine: two
+  customergroup: two
