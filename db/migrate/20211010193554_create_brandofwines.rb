@@ -2,7 +2,7 @@ class CreateBrandofwines < ActiveRecord::Migration[6.1]
   def change
     create_table :brandofwines do |t|
       t.string :brand
-      t.iteger :age
+      t.integer :age
       t.string :winetype
       t.string :price
       t.string :drysweet
