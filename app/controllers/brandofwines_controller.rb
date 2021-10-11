@@ -44,3 +44,4 @@ class BrandofwinesController < ApplicationController
         params.permit(:brand, :age, :winetype, :price, :drysweet, :alcoholcontent, :img_src)
       end
 end
+

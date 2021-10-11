@@ -23,12 +23,12 @@ c7 = Customergroup.create!(party: 'The Ellison Family', partyquantity: 5, custom
 
 puts "Seeding Brandofwine"
 
-b1 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'Pinot Grigio', price: '$5.99', drysweet: 'Semi-Sweet', alcoholcontent: '12.5%', img_src: 'barefoot.jpg')
-b2 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'White Zinfindel', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
-b3 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'California Cabernet Sauvignon', price: '$5.99', drysweet: 'Dry', alcoholcontent: '13.5%', img_src: 'barefoot.jpg')
-b4 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'Moscato', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
-b5 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'Pink Moscato', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
-b6 = Brandofwine.create!(brand: 'barefoot', age: 2021, winetype: 'Merlot', price: '$5.99', drysweet: 'Dry', alcoholcontent: '13%', img_src: 'barefoot.jpg')
+b1 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Pinot Grigio', price: '$5.99', drysweet: 'Semi-Sweet', alcoholcontent: '12.5%', img_src: 'barefoot.jpg')
+b2 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'White Zinfindel', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
+b3 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'California Cabernet Sauvignon', price: '$5.99', drysweet: 'Dry', alcoholcontent: '13.5%', img_src: 'barefoot.jpg')
+b4 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Moscato', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
+b5 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Pink Moscato', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'barefoot.jpg')
+b6 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Merlot', price: '$5.99', drysweet: 'Dry', alcoholcontent: '13%', img_src: 'barefoot.jpg')
 b7 = Brandofwine.create!(brand: 'Black Girl Magic', age: 2019, winetype: 'Red Blend', price: '$19.97', drysweet: 'Sweet', alcoholcontent: '13.5%', img_src: 'black-girl-magic.jpg')
 b8 = Brandofwine.create!(brand: 'Black Girl Magic', age: 2018, winetype: 'Merlot', price: '$17.99', drysweet: 'Dry', alcoholcontent: '13.5%', img_src: 'black-girl-magic.jpg')
 b9 = Brandofwine.create!(brand: 'Black Girl Magic', age: 2018, winetype: 'Zinfandel', price: '$24.99', drysweet: 'Dry', alcoholcontent: '13.5%', img_src: 'black-girl-magic.jpg')
