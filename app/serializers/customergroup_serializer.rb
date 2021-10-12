@@ -1,5 +1,5 @@
 class CustomergroupSerializer < ActiveModel::Serializer
-  attributes :party, :partyquantity, :customerstatus
+  attributes :id, :party, :partyquantity, :customerstatus
 
   has_many :artsessions
   has_many :winepurchases

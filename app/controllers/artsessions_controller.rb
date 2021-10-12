@@ -6,7 +6,7 @@ class ArtsessionsController < ApplicationController
         artsessions = Artsession.all
         render json:  artsessions
     end
-    \
+    
     def show
         artsession = Artsession.find_by(id: params[:id])
         render json: artsession
