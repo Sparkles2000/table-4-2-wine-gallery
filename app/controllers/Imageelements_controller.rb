@@ -42,6 +42,6 @@ class ImageelementsController < ApplicationController
         end
 
         def imageelement_params
-            params.permit(:img_src :artpiece, :brandofwine)
+            params.permit(:img_src, :artpiece, :brandofwine)
         end
 end

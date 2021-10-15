@@ -12,7 +12,6 @@ class CustomergroupsController < ApplicationController
     end
 
     def create
-      byebug
       customergroup = Customergroup.create!(customergroups_params)
       render json: customergroup, status: :created
     end
