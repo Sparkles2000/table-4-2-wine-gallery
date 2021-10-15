@@ -41,6 +41,6 @@ class WinepurchasesController < ApplicationController
         end
 
         def winepurchase_params
-            params.permit(:purchasepackage, :purchased, :customergroup_id, :brandofwine_id )
+            params.permit(:purchasepackage, :purchased, :customergroup, :brandofwine)
         end
-end
+    end

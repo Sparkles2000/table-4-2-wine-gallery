@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   resources :customergroups do
     resources :winepurchases do
-      resources :brandofwines
+      resources :brandofwines do
+        resources :imageelement
+      end
     end
     resources :artsessions do
       resources :artpieces
@@ -9,7 +11,9 @@ Rails.application.routes.draw do
   end
   resources :brandofwines
   resources :artsessions do
-    resources :artpieces
+    resources :artpiece do
+      resources :imageelement
+    end
   end
 resources :customergroups, only: [:index, :show, :create, :update, :destroy]
 resources :brandofwines, only: [:index, :show, :create, :update, :destroy]

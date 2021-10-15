@@ -41,6 +41,6 @@ class ArtpiecesController < ApplicationController
         end
 
         def artpiece_params
-            params.permit(:customergroup, :artists, :piece, :artstyle, :img_src, :artsession_id,)
+            params.permit(:customergroup, :artists, :piece, :artstyle, :img_src, :artsession_id)
         end
 end
