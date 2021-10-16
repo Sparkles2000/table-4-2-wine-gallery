@@ -9,7 +9,7 @@ class WinepurchasesController < ApplicationController
 
     def show
         winepurchase = Winepurchase.find_by(id: params[:id])
-         render json:winepurchase
+         render json:winepurchase, include: ['brandofwines', 'brandofwines.imageelements']
      
      end
 
