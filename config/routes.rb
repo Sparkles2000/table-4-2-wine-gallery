@@ -6,10 +6,14 @@ Rails.application.routes.draw do
       end
     end
     resources :artsessions do
-      resources :artpieces
+      resources :artpieces do
+        resources :imageelement
+      end
     end
   end
-  resources :brandofwines
+  resources :brandofwines do
+    resources :imageelement
+  end
   resources :artsessions do
     resources :artpiece do
       resources :imageelement
