@@ -9,7 +9,7 @@ class ArtpiecesController < ApplicationController
 
     def show
         artpiece = Artpiece.find_by(id: params[:id])
-         render json: artpiece, include: ['imageelements']
+         render json: artpiece
      
      end
 

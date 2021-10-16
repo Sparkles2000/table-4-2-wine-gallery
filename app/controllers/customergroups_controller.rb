@@ -8,7 +8,7 @@ class CustomergroupsController < ApplicationController
 
     def show
         customergroup = Customergroup.find_by(id: params[:id])
-        render json: customergroup, include: ['artsessions', 'artsessions.artpieces']
+        render json: customergroup
     end
 
     def create
