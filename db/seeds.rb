@@ -23,7 +23,7 @@ c7 = Customergroup.create!(party: 'The Ellison Family', partyquantity: 5, custom
 
 puts "Seeding Brandofwine"
 
-b1 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Pinot Grigio', price: '$5.99', drysweet: 'Semi-Sweet', alcoholcontent: '12.5%', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/naomi-tamar-trapped-in-art-unsplash-1.jpg')
+b1 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Pinot Grigio', price: '$5.99', drysweet: 'Semi-Sweet', alcoholcontent: '12.5%', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/barefoot-1.png')
 b2 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'White Zinfindel', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/barefoot-1.png')
 b3 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'California Cabernet Sauvignon', price: '$5.99', drysweet: 'Dry', alcoholcontent: '13.5%', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/barefoot-1.png')
 b4 = Brandofwine.create!(brand: 'Barefoot', age: 2021, winetype: 'Moscato', price: '$5.99', drysweet: 'Sweet', alcoholcontent: '9%', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/barefoot-1.png')
