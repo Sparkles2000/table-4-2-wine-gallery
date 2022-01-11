@@ -120,9 +120,9 @@ w22 = Winepurchase.create!(purchasepackage: 'Five High Premium', purchased: "Fiv
 w23 = Winepurchase.create!(purchasepackage: 'Five High Premium', purchased: "Five High Session, four wines $15 and below, three hors d'oeuvres.", customergroup_id: c7.id, brandofwine_id: b19.id)
 w24 = Winepurchase.create!(purchasepackage: 'Five High Premium', purchased: "Five High Session, four wines $15 and below, three hors d'oeuvres.", customergroup_id: c7.id, brandofwine_id: b20.id)
 w25 = Winepurchase.create!(purchasepackage: 'Five High Premium', purchased: "Five High Session, four wines $15 and below, three hors d'oeuvres.", customergroup_id: c7.id, brandofwine_id: b24.id)
-w26 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b19.id)
-w27 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b20.id)
-w28 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b25.id)
+w26 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b21.id)
+w27 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b25.id)
+w28 = Winepurchase.create!(purchasepackage: 'Double Team Premium', purchased: "Double Team Session, three wines $15 and below, three hors d'oeuvres.", customergroup_id: c2.id, brandofwine_id: b30.id)
 
 puts "Customergroup, Brandofwine, Artsession, Artpieces, Winepurchases & Et all seeded"
 puts "Seeded"
