@@ -71,8 +71,8 @@ puts "Seeding Artpiece"
 
 p1 = Artpiece.create!(artists: 'Jake and Anita Henderson', piece: 'Trapped in art', artstyle: 'Graffiti Art', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/naomi-tamar-trapped-in-art-unsplash.png', artsession_id: a1.id)
 p2 = Artpiece.create!(artists: 'Susan Parker', piece: 'Abstract', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/steve-johnson-abstract-painting-unsplash.png', artsession_id: a2.id)
-p3 = Artpiece.create!(artists: 'Allen Parker', piece: 'Pinkish', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2021/10/steve-johnson-1md-pinkish-unsplash-1.jpg', artsession_id: a2.id)
-p4 = Artpiece.create!(artists: 'Heather McMillen', piece: 'Graffiti', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/steve-johnson-1md-pinkish-unsplash.png', artsession_id: a2.id)
+p3 = Artpiece.create!(artists: 'Allen Parker', piece: 'Pinkish', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/steve-johnson-1md-pinkish-unsplash.png', artsession_id: a2.id)
+p4 = Artpiece.create!(artists: 'Heather McMillen', piece: 'Graffiti', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/steve-johnson-graffiti-unsplash.png', artsession_id: a2.id)
 p5 = Artpiece.create!(artists: 'James McMillen', piece: 'Stained Window', artstyle: 'Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/steve-johnson-stained-window-unsplash.png', artsession_id: a2.id)
 p6 = Artpiece.create!(artists: 'Jessica Peterson', piece: 'Distress', artstyle: 'Charcoal', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/sheldon-liu-distress-unsplash.png', artsession_id: a3.id)
 p7 = Artpiece.create!(artists: 'Jack Levins', piece: 'Ink Block Magic', artstyle: 'Ink Block', img_src: 'https://jazzymae612881094.files.wordpress.com/2022/01/meric-dagli-ink-block-magic-unsplash.png', artsession_id: a3.id)
